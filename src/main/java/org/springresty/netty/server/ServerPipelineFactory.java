@@ -15,10 +15,10 @@ import org.jboss.netty.handler.codec.http.HttpResponseEncoder;
 import org.jboss.netty.handler.execution.ExecutionHandler;
 import org.jboss.netty.handler.execution.MemoryAwareThreadPoolExecutor;
 import org.jboss.netty.handler.execution.OrderedMemoryAwareThreadPoolExecutor;
+import org.springresty.netty.handler.HttpCacheHandler;
+import org.springresty.netty.handler.HttpResponse304Handler;
+import org.springresty.netty.handler.HttpServerHandler;
 import org.springresty.netty.http.router.HandlerRouter;
-import org.sprintresty.netty.handler.HttpCacheHandler;
-import org.sprintresty.netty.handler.HttpResponse304Handler;
-import org.sprintresty.netty.handler.HttpServerHandler;
 
 
 public class ServerPipelineFactory implements ChannelPipelineFactory {

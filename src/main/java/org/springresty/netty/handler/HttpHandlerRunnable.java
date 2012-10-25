@@ -1,4 +1,4 @@
-package org.sprintresty.netty.handler;
+package org.springresty.netty.handler;
 
 import static org.jboss.netty.handler.codec.http.HttpHeaders.isKeepAlive;
 import static org.jboss.netty.handler.codec.http.HttpHeaders.Names.CONTENT_TYPE;

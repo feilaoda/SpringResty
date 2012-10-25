@@ -1,4 +1,4 @@
-package org.sprintresty.netty.handler;
+package org.springresty.netty.handler;
 
 import org.jboss.netty.handler.codec.http.DefaultHttpResponse;
 import org.jboss.netty.handler.codec.http.HttpResponseStatus;

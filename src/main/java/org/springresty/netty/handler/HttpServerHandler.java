@@ -1,4 +1,4 @@
-package org.sprintresty.netty.handler;
+package org.springresty.netty.handler;
 
 import static org.jboss.netty.handler.codec.http.HttpHeaders.is100ContinueExpected;
 import static org.jboss.netty.handler.codec.http.HttpHeaders.Names.CONTENT_TYPE;

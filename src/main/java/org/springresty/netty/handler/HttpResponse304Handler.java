@@ -1,4 +1,4 @@
-package org.sprintresty.netty.handler;
+package org.springresty.netty.handler;
 
 import org.jboss.netty.buffer.ChannelBuffers;
 import org.jboss.netty.channel.*;
