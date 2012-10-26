@@ -1,18 +1,17 @@
 package org.springresty.framework.validation;
 
-public class Length implements Validator{
-	private String name;
-	private String message;
+import java.util.Map;
+
+public class Length extends AbstractValidator{
 	private int min;
 	private int max;
 	
 	public Length(String name, int min, int max){
-		this(name, null, min, max);
+		this(name,  min, max, null);
 	}
 	
-	public Length(String name, String message, int min, int max){
-		this.name = name;
-		this.message = message;
+	public Length(String name, int min, int max, Map<String, String> messages){
+		super(name, messages);
 		this.min = min;
 		this.max = max;
 	}
@@ -23,9 +22,4 @@ public class Length implements Validator{
 		
 	}
 
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return name;
-	}
 }
